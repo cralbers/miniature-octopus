@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+
 body {
   background-color: powderblue;
+  font-family: 'Antic Slab';font-size: 22px;
 }
 h1 {
-  color: blue;
+  color: black;
 }
 p {
-  color: red;
+  color: black;
 }
