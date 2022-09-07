@@ -9,6 +9,11 @@
 
     <!-- stylesheet link -->
     <link href="/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
   </head>
   <body>
     <div class="pill-nav">
@@ -20,6 +25,28 @@
     <h1>songs</h1>
     <p>sometimes music is really nice and makes your brain quiet</p>
 
-
+    <table id="albums" class="display">
+    <thead>
+        <tr>
+            <th>album</th>
+            <th>artist</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Chaos and the Calm</td>
+            <td>James Bay</td>
+        </tr>
+        <tr>
+            <td>Babel</td>
+            <td>Mumford & Sons</td>
+        </tr>
+    </tbody>
+</table>
+<script>
+$(document).ready(function () {
+    $('albums').DataTable();
+});
+</script>
 
   </body>
