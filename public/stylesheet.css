@@ -5,12 +5,15 @@
 body {
   background-color: powderblue;
   font-family: 'Antic Slab';font-size: 22px;
+  margin: auto;
 }
 h1 {
   color: black;
+  margin: auto;
 }
 p {
   color: black;
+  margin: auto;
 }
 .pill-nav a {
   display: inline-block;
