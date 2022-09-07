@@ -5,15 +5,15 @@
 body {
   background-color: powderblue;
   font-family: 'Antic Slab';font-size: 22px;
-  margin: 5px;
+  margin: 10px;
 }
 h1 {
   color: black;
-  margin: 5px;
+  margin: 10px;
 }
 p {
   color: black;
-  margin: 5px;
+  margin: 10px;
 }
 .pill-nav a {
   display: inline-block;
@@ -41,7 +41,7 @@ p {
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
-  margin: 5px;
+  margin: 10px;
 }
 
 /* Clear floats after the columns */
